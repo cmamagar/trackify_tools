@@ -82,8 +82,8 @@ class CustomTextField extends StatelessWidget {
         label: labelText != null
             ? Text(
                 labelText ?? "",
-                style: CustomTextStyles.f16W400(
-                  color: AppColors.primaryColor,
+                style: CustomTextStyles.f14W400(
+                  color: AppColors.secondaryTextColor,
                 ),
               )
             : null,
@@ -92,8 +92,8 @@ class CustomTextField extends StatelessWidget {
         prefixIcon: (preIconPath != null)
             ? Icon(
                 preIconPath,
-                color: prefixIconColor, 
-                size: prefixIconSize, 
+                color: prefixIconColor,
+                size: prefixIconSize,
               )
             : null,
         suffixIcon: (suffixIconPath != null)
@@ -130,5 +130,3 @@ class CustomTextField extends StatelessWidget {
     );
   }
 }
-
-
